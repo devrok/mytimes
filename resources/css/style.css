@@ -8,6 +8,7 @@ header {
   height: 80px;
 }
 
+/* ggf. auskommentieren, da gibt's dann mehr space*/
 div {
   border: 1px solid black;
 }
@@ -41,10 +42,13 @@ header nav span {
 .column {
   margin-right: 30px;
   /* display: flex; */
+  display: flex;
+  flex-direction: column;
 }
 
 .column.large {
   width: 630px;
+
 }
 
 .column.medium {
@@ -70,7 +74,14 @@ header nav span {
  }
 
  .story {
-   
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+ }
+
+ .substories {
+   display: flex;
+   justify-content: space-between;
  }
 
  .mainstoryimagetext {
