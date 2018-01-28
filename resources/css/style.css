@@ -13,7 +13,7 @@ div {
 .logo {
   color: MediumAquamarine;
   display: flex;
-  flex-grow: 1;
+  flex-grow: 1; /* REALLY necessary*/
   align-items: center;
   padding-left: 30px;
 }
@@ -30,4 +30,24 @@ header nav {
 header nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.maincontent {
+  display: flex;
+}
+
+.column {
+  /* display: flex; */
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
