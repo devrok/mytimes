@@ -41,14 +41,12 @@ header nav span {
 
 .column {
   margin-right: 30px;
-  /* display: flex; */
   display: flex;
   flex-direction: column;
 }
 
 .column.large {
   width: 630px;
-
 }
 
 .column.medium {
@@ -59,6 +57,24 @@ header nav span {
   width: 240px;
 }
 
+/* storycontainer contains one ore more stories */
+.storycontainer {
+  display: flex;
+}
+
+.storycontainer.horizontal {
+  flex-direction: row;
+}
+
+.storycontainer.vertical {
+  flex-direction: column;
+}
+
+.justifycontentspacebetween {
+  justify-content: space-between;
+}
+
+
 .storytext {
   font-family: Georgia;
   font-size: 17px;
@@ -68,38 +84,42 @@ header nav span {
 .imagetext {
    font-family: Georgia;
    font-weight: bold;
-   font-size: 30px;
    color: white;
    height: 300px;
  }
 
- .story {
+ .imagetextfontsizemain {
+   font-size: 40px;
+}
+
+ .imagetextfontsizesub {
+  font-size: 30px;
+}
+
+
+
+.story {
    display: flex;
    flex-direction: column;
-   width: 300px;
- }
+}
 
- .substories {
-   display: flex;
-   justify-content: space-between;
- }
+.substorysize {
+  width: 300px;
+}
 
- .mainstoryimagetext {
-   font-size: 40px;
- }
 
- .image0 {
+.image0 {
    background-image: url("../images/img-story-main.png");
- }
+}
 
- .image1 {
+.image1 {
    background-image: url("../images/img-story-2.png");
- }
+}
 
- .image2 {
+.image2 {
    background-image: url("../images/img-story-3.png");
- }
+}
 
- .image3 {
+.image3 {
    background-image: url("../images/img-story-1.png");
- }
+}
