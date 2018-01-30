@@ -101,11 +101,16 @@ header nav span {
    font-weight: bold;
    color: white;
    height: 300px;
-   /* text-align: center; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
  }
 
  .imagetextfontsizemain {
    font-size: 40px;
+   margin-left: 20px;
+   text-align: left;
 }
 
  .imagetextfontsizesub {
